@@ -54,13 +54,21 @@ $P=\sum_{i}D_{i}·[\exp(k_{qs})·{|\Delta B/\Delta t|}^{a_{qs}}·B_{pp}^{b_{qs}}
 #### Triangular waveforms
 The relative error distributions for the different materials are as following:
 
-| Material | Temperature | $E_{RMS}$ | $E_{P_{5%}}$ | $E_{P}_{95%}$ |
-| --- | --- | --- | --- | --- |
-| N87 | 25 ºC | X | X | X |
-| N87 | 50 ºC | Y | Y | Y |
+| Material | Temperature [ºC] | $H_{DC}$ [A/m] | $E_{RMS}$ [%] | $E_{P5}$ [%] | $E_{P95}$ [%] | $E_{worst}$ [%] |
+| ---      | ---              | ---            | ---           | ---              | ---               | ---             |
+| N87      | 25               | 0              | 6.06          | -8.24            | +10.9             | -27.6           |
+| N87      | 50               | 0              | 5.40          | -7.74            | +8.07             | -21.3           |
+| N87      | 70               | 0              | 5.78          | -10.3            | +8.77             | -20.2           |
+| N87      | 90               | 0              | 6.93          | -11.9            | +10.5             | -20.6           |
 
 ### ciGSE parameters obtained from the MagNet database
 The parameters fitted from the MagNet database are classified per tempaerature and DC bias. 
+| Material | Temperature [ºC] | $H_{DC}$ [A/m] | $k_{qs}$ | $a_{qs}$ | $b_{qs}$ | $k_{qs}$ | $a_{qs}$ | $b_{qs}$ |
+| ---      | ---              | ---            | ---      | ---      | ---      | ---      | ---      | ---      |
+| N87      | 25               | 0              |     | -           |            |            |
+| N87      | 50               | 0              |    | -          |            |            |
+| N87      | 70               | 0              |   |            |              |            |
+| N87      | 90               | 0              |    | -          |            |           |
 
 ## Relaxation aware ciGSE
 
