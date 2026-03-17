@@ -11,4 +11,4 @@ a) all relevant information regarding the work published in APEC 2026 before the
 
 b) additional relevant information as the model is improved and updated
 
-![](GIF_triangular.gif)
+![](./GIF_triangular.gif)
