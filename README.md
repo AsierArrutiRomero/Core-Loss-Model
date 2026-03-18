@@ -23,9 +23,9 @@ where $D_{i}$ are the duration factors of the different segments, thus $\sum_{i}
 
 During the MagNet Challenge 2023 |MagNet_Challenge1| a dual-plane approach that closer resembles the iGSE |ciGSE_MagNet| was proposed.
 
-$$\ln(P_{1})=k_1+{a_1}·\ln({\left|\frac{\Delta B}{\Delta t}\right|})+{b_1}·\ln(B_{pp})$$
+$$\ln(P_{1})=k_1+{a_1}·\ln{\left|\frac{\Delta B}{\Delta t}\right|}+{b_1}·\ln(B_{pp})$$
 
-$$\ln(P_{2})=k_2+{a_2}·\ln({\left|\frac{\Delta B}{\Delta t}\right|})+{b_2}·\ln(B_{pp})$$
+$$\ln(P_{2})=k_2+{a_2}·\ln{\left|\frac{\Delta B}{\Delta t}\right|}+{b_2}·\ln(B_{pp})$$
 
 $$P=P_{1}+P_{2}=\exp(k_1)·{\left|\frac{\Delta B}{\Delta t}\right|}^{a_1}·B_{pp}^{b_1}+\exp(k_2)·{\left|\frac{\Delta B}{\Delta t}\right|}^{a_2}·B_{pp}^{b_2}$$
 
@@ -48,7 +48,7 @@ Due to this, the dual plane approach is redefined, so that the power losses of e
 
 The complete ciGSE equation is thus:
 
-$$P=\sum_{i}D_{i}·[\exp(k_{qs})·{\left|\frac{\Delta B}{\Delta t}\right|}^{a_{qs}}·B_{pp}^{b_{qs}}+\exp(k_{mr})·{|\Delta B/\Delta t|}^{a_{mr}}·B_{pp}^{b_{mr}}]$$
+$$P=\sum_{i}D_{i}·[\exp(k_{qs})·{\left|\frac{\Delta B}{\Delta t}\right|}^{a_{qs}}·B_{pp}^{b_{qs}}+\exp(k_{mr})·{\left|\frac{\Delta B}{\Delta t}\right|}^{a_{mr}}·B_{pp}^{b_{mr}}]$$
 
 ### Accuracy of the model
 #### Triangular waveforms
