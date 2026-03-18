@@ -142,6 +142,7 @@ The parameters fitted from the MagNet database are classified per tempaerature a
 | N30      | 50               |  1.3344e+00 |  1.1707e+00 |  1.7904e+00 | -1.0587e+01 |  2.0225e+00 |  2.6378e-03 |
 | N30      | 70               |  9.4146e-01 |  1.2023e+00 |  1.6952e+00 | -1.0081e+01 |  1.9892e+00 |  1.1520e-02 |
 | N30      | 90               | -4.2534e-01 |  1.3244e+00 |  1.5620e+00 | -9.6077e+00 |  1.9513e+00 | -2.1737e-03 |
+
 ![til](./resources/Hdc0_results.png)
 
 ## Relaxation aware ciGSE
