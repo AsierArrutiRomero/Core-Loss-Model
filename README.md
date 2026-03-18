@@ -31,7 +31,7 @@ $P=P_{1}+P_{2}=\exp(k_1)·{|\Delta B/\Delta t|}^{a_1}·B_{pp}^{b_1}+\exp(k_2)·{
 
 The factors $k_1$, $a_1$, $b_1$, $k_2$, $a_2$, and $b_2$ are parametrized from datasets available at the MagNet database. Due to its similarity with the iGSE, which also models losses as functions of $|\Delta B/\Delta t|$ and $B_{pp}$, these parameters can be related with the iGSE Steinmetz parameters
 
-$a = \alpha$, $b = \beta$, $\exp(k)=k_{i}$
+$a = \alpha$, $b = \beta-\alpha$, $\exp(k)=k_{i}$
 
 When evaluating the results, some correlation between the different materials are found out for these parameters
 
